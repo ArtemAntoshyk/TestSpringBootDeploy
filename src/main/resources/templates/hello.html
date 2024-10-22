@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            flex: 1;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+        .contact-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .contact-button:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    Hello
+<header>
+    <h1>Ласкаво просимо на нашу сторінку!</h1>
+</header>
+
+<div class="container">
+    <h2>Про нас</h2>
+    <p>Ми - компанія, яка спеціалізується на створенні якісного контенту для вашого бізнесу.</p>
+    <p>Наша мета - допомогти вам досягти успіху у вашій справі.</p>
+    <a href="/main/contact" class="contact-button">Контакти</a> <!-- Кнопка переходу на контакти -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Ваша Компанія</p>
+</footer>
 </body>
 </html>

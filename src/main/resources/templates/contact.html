@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Додано для прив'язки футера */
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            flex: 1; /* Додано для заповнення простору */
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+        .home-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .home-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Контакти</h1>
+</header>
+
+<div class="container">
+    <h2>Зв'яжіться з нами</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> info@example.com</p>
+        <p><strong>Телефон:</strong> +380 44 123 45 67</p>
+        <p><strong>Адреса:</strong> Київ, вул. Прикладна, 1</p>
+    </div>
+    <h2>Соціальні мережі</h2>
+    <p>
+        <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </p>
+    <a href="/main" class="home-button">Повернутися на головну</a> <!-- Кнопка повернення на головну -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Артеміус Корпарейшин</p>
+</footer>
+</body>
+</html>
